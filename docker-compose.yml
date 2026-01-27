@@ -1,0 +1,18 @@
+version: "3.9"
+services:
+  ruby-2.7.5:
+    build:
+      context: .
+      dockerfile: docker/2.7.5/Dockerfile
+  ruby-3.0.4:
+    build:
+      context: .
+      dockerfile: docker/3.0.4/Dockerfile
+  ruby-3.4.8:
+    build:
+      context: .
+      dockerfile: docker/3.4.8/Dockerfile
+  ruby-4.0.1:
+    build:
+      context: .
+      dockerfile: docker/4.0.1/Dockerfile

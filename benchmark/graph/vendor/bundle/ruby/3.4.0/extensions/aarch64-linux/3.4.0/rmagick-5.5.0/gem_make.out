@@ -1,0 +1,56 @@
+current directory: /app/benchmark/graph/vendor/bundle/ruby/3.4.0/gems/rmagick-5.5.0/ext/RMagick
+/usr/local/bin/ruby extconf.rb
+checking for brew... no
+checking for pacman... no
+checking for Ruby version >= 2.3.0... yes
+checking for outdated ImageMagick version (<= 6.7.7)... no
+checking for g++... yes
+checking for MagickCore/MagickCore.h... yes
+checking for rb_gc_adjust_memory_usage() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,sys/types.h,ruby.h,ruby/io.h,MagickCore/MagickCore.h... yes
+checking for rb_gc_mark_movable() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,sys/types.h,ruby.h,ruby/io.h,MagickCore/MagickCore.h... yes
+checking for rb_io_path() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,sys/types.h,ruby.h,ruby/io.h,MagickCore/MagickCore.h... yes
+checking for posix_memalign() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,sys/types.h,ruby.h,ruby/io.h,MagickCore/MagickCore.h... yes
+checking for malloc_usable_size() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,sys/types.h,ruby.h,ruby/io.h,MagickCore/MagickCore.h... no
+checking for malloc_size() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,sys/types.h,ruby.h,ruby/io.h,MagickCore/MagickCore.h... no
+checking for _aligned_msize() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,sys/types.h,ruby.h,ruby/io.h,MagickCore/MagickCore.h... no
+checking for GetImageChannelEntropy() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,sys/types.h,ruby.h,ruby/io.h,MagickCore/MagickCore.h... no
+checking for SetImageGray() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,sys/types.h,ruby.h,ruby/io.h,MagickCore/MagickCore.h... yes
+checking for SetMagickAlignedMemoryMethods() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,sys/types.h,ruby.h,ruby/io.h,MagickCore/MagickCore.h... yes
+checking for malloc.h... yes
+creating extconf.h
+creating Makefile
+======================================================================
+Sun 25 Jan 26 08:51:08
+This installation of RMagick 5.5.0 is configured for
+Ruby 3.4.8 (aarch64-linux) and ImageMagick 7.1.1
+======================================================================
+
+
+Configured compile options: {magick_version: "7.1.1", local_libs: "  -L/usr/lib/aarch64-linux-gnu -lMagickCore-7.Q16", cppflags: " $(DEFS) $(cppflags)  -I/usr/include/aarch64-linux-gnu//ImageMagick-7 -I/usr/include/ImageMagick-7 -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -DMAGICKCORE_CHANNEL_MASK_DEPTH=32 -x c++ -std=c++11 -Wno-register -DRUBY_VERSION_MAJOR=3 -DRUBY_VERSION_MINOR=4 $(optflags) $(debugflags)", ldflags: "-L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed  -L/usr/lib/aarch64-linux-gnu -lMagickCore-7.Q16 -Wl,-rpath,/usr/lib/aarch64-linux-gnu", defs: ["-DHAVE_MAGICKCORE_MAGICKCORE_H", "-DHAVE_RB_GC_ADJUST_MEMORY_USAGE", "-DHAVE_RB_GC_MARK_MOVABLE", "-DHAVE_RB_IO_PATH", "-DHAVE_POSIX_MEMALIGN", "-DHAVE_SETIMAGEGRAY", "-DHAVE_SETMAGICKALIGNEDMEMORYMETHODS", "-DHAVE_MALLOC_H", "-DRUBY_VERSION_STRING=\"ruby 3.4.8\"", "-DRMAGICK_VERSION_STRING=\"RMagick 5.5.0\"", "-DIMAGEMAGICK_GREATER_THAN_EQUAL_6_8_9=1", "-DIMAGEMAGICK_GREATER_THAN_EQUAL_6_9_0=1", "-DIMAGEMAGICK_GREATER_THAN_EQUAL_6_9_10=1", "-DIMAGEMAGICK_7=1", "-DIMAGEMAGICK_GREATER_THAN_EQUAL_7_0_8=1", "-DIMAGEMAGICK_GREATER_THAN_EQUAL_7_0_10=1"], config_h: "Makefile"}
+
+current directory: /app/benchmark/graph/vendor/bundle/ruby/3.4.0/gems/rmagick-5.5.0/ext/RMagick
+make DESTDIR\= sitearchdir\=./.gem.20260125-45-9v0lqf sitelibdir\=./.gem.20260125-45-9v0lqf clean
+
+current directory: /app/benchmark/graph/vendor/bundle/ruby/3.4.0/gems/rmagick-5.5.0/ext/RMagick
+make DESTDIR\= sitearchdir\=./.gem.20260125-45-9v0lqf sitelibdir\=./.gem.20260125-45-9v0lqf
+compiling rmagick.cpp
+compiling rmdraw.cpp
+compiling rmenum.cpp
+compiling rmfill.cpp
+compiling rmilist.cpp
+compiling rmimage.cpp
+compiling rminfo.cpp
+compiling rmkinfo.cpp
+compiling rmmain.cpp
+compiling rmmontage.cpp
+compiling rmpixel.cpp
+compiling rmstruct.cpp
+compiling rmutil.cpp
+linking shared-object RMagick2.so
+
+current directory: /app/benchmark/graph/vendor/bundle/ruby/3.4.0/gems/rmagick-5.5.0/ext/RMagick
+make DESTDIR\= sitearchdir\=./.gem.20260125-45-9v0lqf sitelibdir\=./.gem.20260125-45-9v0lqf install
+/usr/bin/install -c -m 0755 RMagick2.so ./.gem.20260125-45-9v0lqf
+
+current directory: /app/benchmark/graph/vendor/bundle/ruby/3.4.0/gems/rmagick-5.5.0/ext/RMagick
+make DESTDIR\= sitearchdir\=./.gem.20260125-45-9v0lqf sitelibdir\=./.gem.20260125-45-9v0lqf clean

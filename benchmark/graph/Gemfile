@@ -1,0 +1,4 @@
+source "https://rubygems.org"
+
+gem "gruff", "~> 0.16"
+gem "rmagick", "~> 5.4"

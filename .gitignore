@@ -1,0 +1,25 @@
+# Ruby
+*.gem
+*.rbc
+.bundle/
+vendor/bundle/
+
+# Docker
+**/tmp/
+
+# Benchmark outputs
+benchmark/results/
+benchmark/graphs/
+
+# Docs (excluded by request)
+docs/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+
+# Editor
+.vscode/
+.idea/
