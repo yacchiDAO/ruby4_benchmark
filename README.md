@@ -1,7 +1,7 @@
 # Ruby 4.0 Benchmark Playground
 
 Ruby 2.7.5 / 3.0.4 / 3.4.8 / 4.0.1 を Docker 上で比較するベンチマーク一式です。
-社内勉強会向けの資料とベンチ結果の可視化が目的です。
+勉強会向けの資料とベンチ結果の可視化が目的です。
 
 ## 構成
 - `docker/` : Ruby各バージョンのDockerfile
@@ -51,7 +51,7 @@ RUNS=5 SCALE=4 docker compose run --rm ruby-4.0.1 ruby /app/benchmark/app_like_h
 `benchmark/graph/Gemfile` の gruff + rmagick を利用します。
 
 ```
-docker run --rm -v /Users/okamura.yasushi/project/ruby4_test:/app -w /app ruby:3.4 bash -lc \
+docker run --rm -v ./:/app -w /app ruby:3.4 bash -lc \
 'apt-get update -y >/dev/null && apt-get install -y --no-install-recommends libmagickwand-dev >/dev/null && \
  gem install bundler >/dev/null && export BUNDLE_GEMFILE=benchmark/graph/Gemfile && \
  bundle config set --local path "vendor/bundle" && bundle install >/dev/null && \
